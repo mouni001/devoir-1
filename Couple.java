@@ -26,7 +26,7 @@ public class Couple{
     q=v;
   }
   public void display(){
-    System.out.println("("+p+","+q+")");
+    System.out.print("("+p+","+q+")");
   }
   public boolean compare(Couple obj){
     Couple other = (Couple) obj;
