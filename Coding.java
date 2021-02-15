@@ -12,33 +12,32 @@ public class Coding{
     return arr;
   }
   public static byte[] decode(byte[][] data){
-    byte[] reponse=data[0];
-    byte[][] decode =data;
-    decode[0][0]=50;
-    decode[2][3]=12;
-    decode[3][4]=32;
+    byte[] reponse={1,2,3,4,5,6};
+    data[0][0]=50;
+    data[1][3]=12;
+    data[2][4]=32;
     for (byte i=0; i<3;i++){
-      for(byte j=0;j< decode.length;j++){
-        System.out.print(decode[i][j]+" ");
+      for(byte j=0;j< 6;j++){
+        System.out.print(data[i][j]+" ");
       }
       System.out.println();
     }
     for (byte i=0; i<3;i++){
-      for(byte j=0;j< decode.length;j++){
-        if(decode[i][j]!=reponse[j]){
+      for(byte j=0;j< 6;j++){
+        if(data[i][j]!=reponse[j]){
           break;
         }
       }
+      }
+      return reponse;
     }
-  return reponse;
-  }
-
   public static void main(String[]args){
     byte[] example={1,2,3,4,5,6};
-    for(int i=0; i< example.length ; i++) {
-         System.out.print(example[i] +" ");
     code(example);
     System.out.print("{");
+    for(int i=0; i< example.length ; i++) {
+         System.out.print(example[i] +" ");
       }
-    }
+      System.out.print("}");
+}
 }
