@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+public class  Coding {
+   public static  byte [][] Code(byte [] data ) {
+
+
+     return
+  }
+  public static void decode(byte[][]data){
+    int z=0;
+    int somme=0;
+    for(int j=0 ;data[i][j] ; i++){
+      for (int i=0;j<data[0];j++){
+  
+
+
+    }
+    }
+
+  }
+}
+
+public static void main(String[] args) {
+
+
+=======
 public class Coding{
   public static void byte[][] code (byte[] data){
     byte[][]arr=new byte[3][data.length];
@@ -21,4 +46,5 @@ public class Coding{
     byte[] example={1,2,4,11,26,15};
     code(example);
 }
+>>>>>>> d3a2e7167555876baa983bbcf700367aae0f9ad2
 }
