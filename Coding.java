@@ -10,9 +10,11 @@ public class Coding{
     }
   }
   public static byte[] decode(byte[][] data){
-    arr[0][0]=50;
-    arr[2][3]=12;
-    arr[3][4]=32;
+    byte[][] decode =arr;
+    decode[0][0]=50;
+    decode[2][3]=12;
+    decode[3][4]=32;
+    for(i=)
 
   }
   public static void main(String[]args){
